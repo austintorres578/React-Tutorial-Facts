@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    font-family: inter;
+    height:100%
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 
+    #21222A;
+    padding: 20px;
+    height: 10vh;
+}
+
+.react-logo{
+    height: 50px;
+    width: auto;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.logo-section img{
+    margin-right: 15px;
+}
+.logo-section h3{
+    color: #61DAFB;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title-section{
+    display: flex;
+    align-items: center;
+}
+.title-section h4{
+    font-size: 25px;
+    color: white;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282D35;
+    height: 85vh;
+}
+.main-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    overflow-x: hidden;
+}
+.main-header{
+    font-size: 70px;
+    margin: 0px 0px 75px 0px;
+    color: white;
+}
+.main-list li{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+.main-list li::marker{
+    color: #61DAFB;
+    font-size: 45px;
+}
